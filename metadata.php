@@ -54,6 +54,7 @@ $aModule = array(
     'author'       => 'Benjamin Pietzner',
     'url'          => 'http://www.bpmusic.de',
     'email'        => 'info@bpmusic.de',
+    'thumbnail'    => 'screenshot.jpg',
 
     'extend'       => array(
         \OxidEsales\Eshop\Application\Controller\ContactController::class => \BPMusic\ContactPageModule\Controller\ContactController::class,
